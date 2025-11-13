@@ -1,0 +1,274 @@
+.logo{
+    width:5.5rem;
+    height:5,5rem;
+}
+.display-light{
+    background-color: #E5E9EC;
+    height: 100%;
+    color: #949494;
+}
+.display-night{
+    background-color: #272A2F;
+    height: 100%;
+    color: #F6F6F6;
+}
+.header{
+    gap: 1.4rem;
+    height: 8rem;
+    padding: 0rem 0rem; 
+}
+    .header-night{
+        background-color: #204E6B;
+    }
+    .header-light{
+        background-color: white;
+    }
+
+.header-txt{
+    gap: 0.5rem;
+}
+
+.txt-1{
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+    .txt-1-night{
+        font-family: 'roboto', sans-serif;
+        font-weight: 700;
+    }
+
+.txt-2{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+    .txt-2-night{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    }
+
+.prog-name-light{
+    font-family: 'righteous',sans-serif;
+    color:#3BB2FF;
+    font-weight: 400;
+    font-size:14rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+
+.prog-name-night{
+    font-family: 'righteous',sans-serif;
+    color:#3BB2FF;
+    font-weight: 400;
+    font-size:14rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    text-shadow: 0 0 3.2rem #93d3fe85;
+}
+.input-frame{
+    padding: 2rem;
+    width:80%;
+    margin: 0px auto;
+    border-radius: 2rem;
+    gap:1.6rem;
+}
+/* -------- */
+    .input-frame-light{
+        background-color: #F0F0F0;
+    }
+        .input-frame-night {
+            border: 1px solid transparent;
+            border-radius: 2rem;
+            background:
+                linear-gradient(#494949, #494949) padding-box,
+                linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(59,178,255,1) 50%) border-box;
+            background-clip: padding-box, border-box;
+            padding: 2rem;
+            color: #F6F6F6;
+            }
+.input-title{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.input{
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    height: 16rem;
+    padding: 2rem;
+}
+    .input-night{
+            border: 1px solid transparent;
+            height: 15rem;
+            border-radius: 2rem;
+            background:
+                linear-gradient(#6D6D6D, #6D6D6D) padding-box,
+                linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(59,178,255,1) 50%) border-box;
+            background-clip: padding-box, border-box;
+            color: #F6F6F6;
+    }
+.input::content{
+    padding-top:2rem;
+    padding-left: 2rem;
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-wrap: inherit;
+}
+.analyse-btn{
+    display: flex;
+    margin: 0rem auto;
+    text-decoration: none;
+    width:max-content;
+    padding: 1.5rem 2rem;
+    /* height: 5.6rem; */
+    font-family: 'roboto',sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    color: #F6F6F6;
+    cursor: pointer;
+}
+.analyse-btn:hover {
+  opacity: 1;
+  transform: scale(1.02);
+  text-shadow: 0 0 4px rgba(0, 120, 255, 0.3);
+}
+    .btn-light{
+    background-color: #3BB2FF;
+    }
+    .btn-night{
+            border: 1px solid transparent;
+            border-radius: 1rem;
+            background:
+                linear-gradient(135deg, #2c7a9e, #0e171b) padding-box,
+                linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(59,178,255,1) 50%) border-box;
+            background-clip: padding-box, border-box;
+            filter: drop-shadow(0 0 3.2rem #93d3fe5d);
+    }
+.home-foot{
+    margin-top:1.6rem;
+    margin-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.author, .disclaimer{
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.mode{
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.right-col{
+    gap: 0.64rem;
+}
+.disclaimer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.6rem;
+  opacity: 70%;
+  z-index: 9999;
+}
+#toggle img {
+  width: 3.2rem;
+  cursor: pointer;
+}
+#on { display: none; }
+.display-night #on { display: block; }
+.display-night #off { display:  none; }
+.grade{
+    height: 10rem;
+    width:  30rem;
+    border-radius: 1.92rem;
+    margin: 2.4rem auto 2.4rem auto;
+    padding: 0rem 2rem;
+    gap: 0.8rem;
+}
+    .grade-light{
+        background-color: #3BB2FF;
+    }
+    .grade-night{
+            border: 1.6px solid transparent;
+            height: 9.5rem;
+            width: 30rem;
+            border-radius: 1.96rem;
+            background:
+                linear-gradient(#272A2F, #272A2F) padding-box,
+                linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(59,178,255,1) 50%) border-box;
+            background-clip: padding-box, border-box;
+            gap:0.8rem;
+            color: #F6F6F6;
+    }
+    .gnumb{
+        color: #F6F6F6;
+        font-size: 3.84rem;
+        font-weight: 700;
+        font-family: 'roboto', sans-serif;
+    }
+    .gtxt{
+        color: #F6F6F6;
+        font-size: 2rem;
+        font-weight: 400;
+        font-family: 'roboto', sans-serif;
+    }
+.sum-board{
+    width: 80%;
+    height: 24rem;
+    margin: 0rem auto 1.96rem auto;
+    padding:1.96rem 3.84rem;
+    border-radius: 2rem;
+    gap:1.96rem;
+}
+    .sum-board-light{
+        background-color: #FFFFFF;
+    }
+    .sum-board-night{
+            width: 80%;
+            height: 23.5rem;
+            border: 1.6px solid transparent;
+            border-radius: 2rem;
+            background:
+                linear-gradient(#272A2F, #272A2F) padding-box,
+                linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(59,178,255,1) 50%) border-box;
+            background-clip: padding-box, border-box;
+            color: #F6F6F6;
+    }
+    .board-title, .col-2{
+        font-family: 'roboto',sans-serif;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    .col-1, .sum-board-desciption{
+        font-family: 'roboto',sans-serif;
+        font-size: 1.6rem;
+        font-weight: 400;
+        gap: 1rem;
+    }
+    .hidden{
+        display: none;
+    }
+    .strong{
+        font-weight: 700;
+    }
+    .row-1, .row-2, .row-3, .row-4, .row-5{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }

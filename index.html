@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi" class="display-light" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Readability</title>
+    <link rel="stylesheet" href="./style/root.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-light">
+        <div class="header container flex-row align-center">
+            <img src="./assets/logo.svg" alt="" class="logo">
+            <div class="header-txt flex-column">
+                <p class="txt-1">Readability Analyser</p>
+                <p class="txt-2">Inspired by CS50’s Pset 2 - Readability</p>
+            </div>
+        </div>
+    </header>
+    <!-- Home page -->
+    <section id="homePage">
+        <p class="prog-name-light container text-center" id="progName">Readability</p>
+        <div id="inputFrame" class="input-frame input-frame-light flex-column space-around">
+            <p class="input-title">Paste your text here:</p>
+            <textarea class="input input-light" id="inputTxt"></textarea>
+            <a id= "analyseBtn" class="analyse-btn flex-center align-center btn-light">Analyse</a>
+        </div>
+    </section>
+    <!-- Result -->
+    <section class="result main" id="result">
+        <p class="prog-name-light container text-center" id="progName" style="font-size:9rem; margin: 4rem auto 1rem auto;">Readability</p>
+        <div class="grade flex-column align-center flex-center grade-light">
+            <p class="gnumb" id="gNumb"></p>
+            <p class="gtxt" id="gTxt"></p>
+        </div>
+        <div class="sum-board flex-column flex-center sum-board-light">
+            <p class="board-title">Summary</p>
+            <div class="row-1">
+                <p class="col-1">Letter:</p>
+                <p class="col-2" id="letter"></p>
+            </div>
+            <div class="row-2">
+                <p class="col-1">Word:</p>
+                <p class="col-2" id="word"></p>
+            </div>
+            <div class="row-3">
+                <p class="col-1">Sentence:</p>
+                <p class="col-2" id="sentence"></p>
+            </div>
+            <div class="row-4">
+                <p class="col-1">S-Index (Average number of sentences per 100 words):</p>
+                <p class="col-2" id="sIndex"></p>
+            </div>
+            <div class="row-5">
+                <p class="col-1">L-Index (Average number of letters per 100 words):</p>
+                <p class="col-2" id="lIndex"></p>
+            </div>
+            <p class="sum-board-desciption font-italic">The Coleman-Liau index estimates the reading level of this text.</p>
+        </div>
+        <a href="" id= "finishBtn" class="analyse-btn flex-center align-center btn-light">Finish</a>
+    </section>
+    <footer class="footer">
+        <div class="row-1 flex-row space-between home-foot">
+            <p class="author">By Quang-Ly Chia</p>
+            <div class="flex-row right-col align-center">
+                <p class="mode">Dark mode</p>
+                <a id="toggle" class="flex-row align-center">
+                    <img src="./assets/off-switch.svg" alt="switch off" id="off">
+                    <img src="./assets/on-switch.svg" alt="switch on" id="on">  
+                </a>
+            </div>
+        </div>
+    <section class="disclaimer"><strong class="strong">Disclaimer:</strong> This work is submitted for educational purposes as part of the CS50 course.<br>All code and explanations reflect personal understanding and learning, and are intended solely for academic review.</section>
+    </footer>
+   <script src="./main/main.js"></script>
+</body>
+</html> 
