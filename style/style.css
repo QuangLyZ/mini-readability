@@ -52,7 +52,8 @@
     font-family: 'righteous',sans-serif;
     color:#3BB2FF;
     font-weight: 400;
-    font-size:8rem;
+    width: 80%;
+  font-size: clamp(2rem, 8vw, 6rem);
     margin-top: 6rem;
     margin-bottom: 4rem;
 }
@@ -62,7 +63,8 @@
     font-family: 'righteous',sans-serif;
     color:#3BB2FF;
     font-weight: 400;
-    font-size:8rem;
+    width: 80%;
+  font-size: clamp(2rem, 8vw, 6rem);
     margin-top: 6rem;
     margin-bottom: 4rem;
     text-shadow: 0 0 3.2rem #93d3fe85;
